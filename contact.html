@@ -3,19 +3,10 @@
     <head>
     <title>My Portfolio</title>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-
-                    <!-- Required meta tags -->
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 
                     <!-- Bootstrap CSS -->
-                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-                
-                    <!-- <title>Hello, world!</title> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
                 
     </head>
     <body>
@@ -26,60 +17,43 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
-        
-               
-            <!-- <div id="header">
-               <header>
-                    <h1 id="name">Mahisha Gunasekaran</h1>
-                    <div id="link_header">
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </header>
-            </div> -->
 
             <div id="header"></div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                     <a class="navbar-brand" href="#"id="name">Mahisha Gunasekaran</a>
+            <nav class="p-3 navbar navbar-expand-lg navbar-light bg-dark sticky-top navbar-custom col-sm shadow p-4 mb-4 bg-white">
+                     <a class="bg-info text-white navbar-brand" href="#"id="name">Mahisha Gunasekaran</a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                        <span class="navbar-toggler-icon"></span>
                      </button>
                      <div class="collapse navbar-collapse" id="navbarNav">
                        <ul class="nav navbar-nav ml-auto">
                          <li class="nav-item active">
-                           <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                           <a class="nav-link text-info" href="index.html">About <span class="sr-only">(current)</span></a>
                          </li>
                          <li class="nav-item">
-                           <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></a>
+                           <a class="nav-link text-info" href="portfolio.html">Portfolio<span class="sr-only"></a>
                          </li>
                          <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contact<span class="sr-only"></a>
+                           <a class="nav-link text-info" href="contact.html">Contact<span class="sr-only"></a>
                          </li>
                        </ul>
                      </div>
                    </nav>
                  </div>
 
-        <div id="main">
-        <h2>Contact</h2>
+        <!--First row-->
+        <div class="container shadow p-1 bg-light">
+        <div class="row">
+        <!-- <div id="main"> -->
+          <div class="col-md-12">
+        <h2 class="text-info">Contact</h2>
+      </div>
+      </div>
+      <!--End of first row-->
         <hr>
-        <!-- <form action="#" id="form">
-            Name:<br>
-            <input id="fname"type="text"name="firstname"value="Mahisha Gunasekaran">
-            <br>
-            <br>
 
-            Email:<br>
-            <input id="email"type="text"name="email"value="123@gmail.com">
-            <br>
-            <br>
-
-            Message:<br>
-            <textarea rows="4" cols="50" name="message"></textarea>
-            <br>
-            <input id="submit"type="submit"value="Submit">
-        </form> -->
+        <!--Second row-->
+        <div class="row">
+          <div class="col-md-12">
         <form>
                 <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
@@ -95,28 +69,21 @@
                   <label for="exampleInputPassword1">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                <!-- <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div> -->
-                <!-- <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Large textarea</label>
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
-                      </div> -->
+
                       
                       <div class="form-group">
                         <label for="exampleFormControlTextarea2">Message</label>
                         <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
                       </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary btn-info">Submit</button>
               </form>
         </div>
-        <!-- <footer>
-                <div class="footer">
-                    <p id="p_footer">Copyright &copy</p>
-                </div>
-            </footer> -->
-            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      </div>
+      </div>
+      </div>
+        <!-- <footer>-->
+
+            <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
                     <div class="container text-center">
                       <small>Copyright &copy;</small>
                     </div>
